@@ -1,1 +1,3 @@
 # Interpretable-Credit-Risk-Modeling-Using-SHAP-and-LIME
+
+This project focuses on building a machine learning model to predict outcomes using a structured dataset. The workflow includes data preprocessing, feature engineering, and model training using an advanced algorithm to achieve high accuracy. The project also includes explainable AI techniques such as SHAP and LIME to understand how the model makes decisions. SHAP provides global insights about which features influence predictions the most, while LIME gives local explanations for individual cases. The final model is evaluated using metrics such as accuracy, AUC, and F1-score, and the trained model is saved for future use.
