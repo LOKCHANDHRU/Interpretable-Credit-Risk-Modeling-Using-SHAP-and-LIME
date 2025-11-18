@@ -4,6 +4,7 @@ This project focuses on building a machine learning model to predict outcomes us
 
 
 # Project Objectives
+
 - Dataset loading (or synthetic dataset generation if none provided)  
 - Feature engineering (engineered predictors for interpretability and predictive power)  
 - Train–test split  
@@ -14,7 +15,8 @@ This project focuses on building a machine learning model to predict outcomes us
 - LIME local explanations for 5 selected test samples  
 - Report generation in UTF-8-safe `.txt` files
 
-# Dataset Explanation (for README.md / Project Report)
+# Dataset Explanation 
+
 This project uses a structured credit-risk dataset containing borrower financial details and loan outcome labels. The purpose of the dataset is to support the development of an interpretable machine-learning model that predicts whether a borrower will default or remain safe.
 
 <a href = "">  Dataset </a>
