@@ -1,0 +1,5 @@
+MODEL PERFORMANCE REPORT
+-----------------------------------
+AUC Score: 0.9474
+Accuracy: 0.8850
+F1 Score: 0.9136
