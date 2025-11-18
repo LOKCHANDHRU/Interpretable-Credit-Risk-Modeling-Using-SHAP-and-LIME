@@ -1,0 +1,7 @@
+FEATURE ENGINEERING REPORT
+-----------------------------------
+1. income_to_loan_ratio: Measures repayment capacity.
+2. high_dti: Flags borrowers with high debt-to-income ratio.
+3. long_credit_history: Indicates credit experience over 10 years.
+4. many_open_accounts: Detects borrowers with more than 8 accounts.
+5. high_revol_util: Shows heavy credit utilization.
