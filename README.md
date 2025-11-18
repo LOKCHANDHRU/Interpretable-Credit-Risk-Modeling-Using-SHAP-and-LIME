@@ -21,6 +21,37 @@ This project uses a structured credit-risk dataset containing borrower financial
 
 <a href ="https://github.com/LOKCHANDHRU/Interpretable-Credit-Risk-Modeling-Using-SHAP-and-LIME/blob/main/credit_risk_dataset.csv">  Dataset </a>
 
+# Model Training
+
+The credit risk prediction model is built using **XGBoost**, a high-performance gradient boosting algorithm widely used for tabular financial data.
+
+### Model Training (XGBoost)
+The model was trained using the **XGBoost** classifier, a high-performance gradient boosting algorithm widely used for financial risk prediction. The training process included feature scaling, hyperparameter tuning, and iterative boosting rounds to improve accuracy. Key training parameters such as learning rate, number of estimators, max depth, subsampling, and column sampling were optimized to reduce overfitting and enhance model stability. The final model demonstrated strong performance in predicting the likelihood of loan default.
+
+### SHAP Explainability
+To ensure transparency and build trust in the model's predictions, **SHAP (SHapley Additive exPlanations)** was used to interpret both global and individual predictions.
+
+#### Global Explanations
+- SHAP summary plots highlight the most influential features.
+- Feature importance rankings show how financial variables impact default risk.
+- Provides a clear understanding of the model’s overall decision logic.
+
+#### Local Explanations
+- SHAP force plots explain why a particular applicant is predicted as “default” or “non-default”.
+- Shows how each feature pushes the prediction higher or lower.
+- Useful for credit officers to justify decisions for individual loan applications.
+
+SHAP ensures the model is highly interpretable and not a black-box system.
+
+# Technologies Used
+- **Python 3.x** – Core development language  
+- **Pandas & NumPy** – Data manipulation and numerical processing  
+- **Scikit-learn** – Preprocessing and evaluation  
+- **XGBoost** – Gradient boosting classification model  
+- **SHAP** – Explainable AI framework  
+- **Matplotlib / Seaborn** – Visualization libraries  
+- **Jupyter Notebook / Google Colab** – Development and experimentation environment  
+
 
 # Text-based report section detailing feature engineering choices and final model performance metrics
 
@@ -55,5 +86,6 @@ This project uses a structured credit-risk dataset containing borrower financial
   - A comparison discussing alignment or differences between local justifications and global feature importance
   - <a href="https://github.com/LOKCHANDHRU/Interpretable-Credit-Risk-Modeling-Using-SHAP-and-LIME/blob/main/LIME_Local_Comparison.txt">LIME_Local_Comparison </a>
 
-
+# Conclusion
+This project successfully demonstrates how machine learning can be used to predict loan default risk with high accuracy while maintaining transparency through explainable AI techniques. The combination of XGBoost for strong predictive performance and SHAP for interpretability ensures the model is reliable, actionable, and suitable for real-world financial decision-making. The insights produced can assist credit officers in making informed, fair, and accountable lending decisions.
 
