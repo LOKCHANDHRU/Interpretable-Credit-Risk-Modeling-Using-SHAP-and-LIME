@@ -30,18 +30,21 @@ This project uses a structured credit-risk dataset containing borrower financial
   - `long_credit_history`
   - `many_open_accounts`
   - `high_revol_util`
+  - <a href ="https://github.com/LOKCHANDHRU/Interpretable-Credit-Risk-Modeling-Using-SHAP-and-LIME/blob/main/Feature_Engineering_Report.txt"> Feature_Engineeriong</a>
 
 ### Model_Performance
   - AUC
   - F1-score
   - Accuracy
   - Classification report
+  - <a href="https://github.com/LOKCHANDHRU/Interpretable-Credit-Risk-Modeling-Using-SHAP-and-LIME/blob/main/Model_Performance_Report.txt"> Model_Performance</a>
 
 # Textual summary of global SHAP findings, including the top 5 feature interpretations
 
 ### SHAP_Global_Summary
   - Ranked top-5 features by mean |SHAP|
   - Plain-language interpretation of how each top feature influences default risk
+  - <a href ="https://github.com/LOKCHANDHRU/Interpretable-Credit-Risk-Modeling-Using-SHAP-and-LIME/blob/main/SHAP_Global_Summary.txt "> Shap_Global_Summary</a>
 
 
 # Textual analysis comparing LIME justifications with global SHAP insights
@@ -50,6 +53,7 @@ This project uses a structured credit-risk dataset containing borrower financial
   - Short explanation of SHAP vs LIME (global vs local)
   - Local LIME explanations for 5 selected cases (feature contributions & predicted labels)
   - A comparison discussing alignment or differences between local justifications and global feature importance
+  - <a href="https://github.com/LOKCHANDHRU/Interpretable-Credit-Risk-Modeling-Using-SHAP-and-LIME/blob/main/LIME_Local_Comparison.txt">LIME_Local_Comparison </a>
 
 
 
