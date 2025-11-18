@@ -19,7 +19,7 @@ This project focuses on building a machine learning model to predict outcomes us
 
 This project uses a structured credit-risk dataset containing borrower financial details and loan outcome labels. The purpose of the dataset is to support the development of an interpretable machine-learning model that predicts whether a borrower will default or remain safe.
 
-<a href = "">  Dataset </a>
+<a href ="https://github.com/LOKCHANDHRU/Interpretable-Credit-Risk-Modeling-Using-SHAP-and-LIME/blob/main/credit_risk_dataset.csv">  Dataset </a>
 
 
 # Text-based report section detailing feature engineering choices and final model performance metrics
