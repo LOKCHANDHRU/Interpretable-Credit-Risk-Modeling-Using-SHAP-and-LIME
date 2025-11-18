@@ -1,8 +1,0 @@
-GLOBAL SHAP FINDINGS
------------------------------------
-Top 5 Most Important Features:
-revol_util
-dti
-annual_inc
-int_rate
-loan_amnt
